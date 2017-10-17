@@ -25,7 +25,7 @@ public class ChatClient extends JFrame{
       
       try{
          //create a socket
-         Socket s = new Socket("129.21.108.36",16789);//129.21.108.36
+         Socket s = new Socket("localhost",16789);//129.21.108.36
          
          //create inputstream
          InputStream in = s.getInputStream();
