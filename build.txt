@@ -1,0 +1,11 @@
+To compile and run:
+1. In command prompt cd to the directory containing the ChatServer.java file
+
+2. Set the path to the directory that contains the JDK program files
+ex: set path=%path%;C:\Program Files\Java\jdk1.8.0_144\bin
+
+3. enter: javac ChatServer.java
+if it gives you an error make sure you are correctly setting up your path.
+
+4. enter: java ChatServer
+this will run the Server
